@@ -1,0 +1,437 @@
+/usr/bin/python2.7 /home/aparasur/dev/fplyny/fplyny.py
+--------------------------+++++++++++++--------------------------
+[FP-LY-NY] Welcome to 'Find->People->Like->You->Near->You Application'
+--------------------------+++++++++++++--------------------------
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel).
+16/12/07 19:20:29 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[FP-LY-NY] Loaded data in memory in 9.901 seconds
+[FP-LY-NY] Please enter your first name: Charles
+[FP-LY-NY] Please enter your age: 67
+[FP-LY-NY] Please enter your location details in latitude: 52.58666
+[FP-LY-NY] Please enter your location details in longitude: 41.5021
+
+
+[FP-LY-NY] Your current approximate location is - ЗАГС, 5, улица Кирова, Котовск, городской округ Котовск, Тамбовская область, ЦФО, 393190, РФ
+
+
+FP-LY-NY -> Top 10 People In Close Proximity
++--------+---+--------+---------+
+|    name|age|latitude|longitude|
++--------+---+--------+---------+
+|   Robin| 67|52.37923| 41.68192|
+|Jonathan| 67|52.68405| 41.41752|
+|  Philip| 67|52.63744| 41.45968|
+|  Harold| 67|52.77495| 41.47759|
+|   Larry| 67| 52.4167| 41.43108|
+|  Victor| 67|52.73169| 41.44326|
+|  Victor| 67|52.77495| 41.47759|
+| Mildred| 67|52.37923| 41.68192|
+|   Jerry| 67|52.65599| 41.88461|
+|    Sara| 67|52.37923| 41.68192|
++--------+---+--------+---------+
+
+[FP-LY-NY] Final Dataframe in 11.975 seconds
+[FP-LY-NY] Do you want to know the exact location of these people [y/n] :: y
+
+
+FP-LY-NY -> Top 10 People In Close Proximity with Exact Location
++--------+---+--------------------+
+|    name|age|            location|
++--------+---+--------------------+
+|   Robin| 67|Кооперативная ули...|
+|Jonathan| 67|Советская улица, ...|
+|  Philip| 67|Цнинский сельсове...|
+|  Harold| 67|А143, Донской сел...|
+|   Larry| 67|Советская улица, ...|
+|  Victor| 67|Торгово-ярморочны...|
+|  Victor| 67|А143, Донской сел...|
+| Mildred| 67|Кооперативная ули...|
+|   Jerry| 67|Бегемот, Воронежс...|
+|    Sara| 67|Кооперативная ули...|
++--------+---+--------------------+
+
+[FP-LY-NY] Location Dataframe in 7.754 seconds
+
+
+[FP-LY-NY] Do you want to continue or quit [c/q]: c
+
+
+[FP-LY-NY] Great! let's continue to do some more searches...
+
+
+[FP-LY-NY] Please enter your first name: Hardy
+[FP-LY-NY] Please enter your age: 97
+[FP-LY-NY] Please enter your location details in latitude: -15.94028
+[FP-LY-NY] Please enter your location details in longitude: -73.13
+
+
+[FP-LY-NY] Your current approximate location is - AR-535, Arroyo, Río Grande, Condesuyos, Arequipa, Perú
+
+
+FP-LY-NY -> Top 10 People In Close Proximity
+[Stage 7:>                                                          (0 + 8) / 8]+---------+---+---------+---------+
+|     name|age| latitude|longitude|
++---------+---+---------+---------+
+|  Frances| 97|-15.94028|   -73.13|
+|  Jessica| 97|-15.50611|-73.47917|
+|     Lori| 97|-15.94028|   -73.13|
+|     Jose| 97|-15.79667|-72.86056|
+|  Phillip| 97|-15.79667|-72.86056|
+|      Roy| 97|-15.79667|-72.86056|
+|Christina| 97|-16.02861|-73.17056|
+|    Scott| 97|-15.94028|   -73.13|
+|  Gregory| 97|-16.02861|-73.17056|
+|    Louis| 97|-15.18444|-73.34889|
++---------+---+---------+---------+
+
+[FP-LY-NY] Final Dataframe in 1.279 seconds
+k
+Error: invalid choice: k. (choose from y, n)
+[FP-LY-NY] Do you want to know the exact location of these people [y/n] :: n
+
+
+[FP-LY-NY] Do you want to continue or quit [c/q]: c
+
+
+[FP-LY-NY] Great! let's continue to do some more searches...
+
+
+[FP-LY-NY] Please enter your first name: Kate
+[FP-LY-NY] Please enter your age: 33
+[FP-LY-NY] Please enter your location details in latitude: 43.76833
+[FP-LY-NY] Please enter your location details in longitude: 59.02139
+
+
+[FP-LY-NY] Your current approximate location is - Ajiniyaz ko'shesi, Moynaq, Moynoq Tumani, Qaraqalpaqstan Respublikasi, 230800, Oʻzbekiston
+
+
+FP-LY-NY -> Top 10 People In Close Proximity
++---------+---+--------+---------+
+|     name|age|latitude|longitude|
++---------+---+--------+---------+
+|Christine| 33|42.77667| 59.60778|
+|   Nicole| 33|42.92952| 59.78199|
+|    Paula| 33| 42.8395| 59.00093|
+|      Ann| 33|43.06874| 58.90372|
+|  Barbara| 33|43.02207| 60.01701|
+|    Randy| 33|42.77667| 59.60778|
+|    Peter| 33|43.05207| 58.84596|
+|  Marilyn| 33|43.02207| 60.01701|
+|     Alan| 33| 42.8395| 59.00093|
+|   Willie| 33|43.01907| 59.36425|
++---------+---+--------+---------+
+
+[FP-LY-NY] Final Dataframe in 1.033 seconds
+[FP-LY-NY] Do you want to know the exact location of these people [y/n] :: n
+
+
+[FP-LY-NY] Do you want to continue or quit [c/q]: c
+
+
+[FP-LY-NY] Great! let's continue to do some more searches...
+
+
+[FP-LY-NY] Please enter your first name: Hendo
+[FP-LY-NY] Please enter your age: 21
+[FP-LY-NY] Please enter your location details in latitude: 30.91291
+[FP-LY-NY] Please enter your location details in longitude: 115.93515
+
+
+[FP-LY-NY] Your current approximate location is - 陶家河乡, 英山县 (Yingshan), 黄冈市 / Huanggang, 湖北省, 中国
+
+
+FP-LY-NY -> Top 10 People In Close Proximity
++------+---+--------+---------+
+|  name|age|latitude|longitude|
++------+---+--------+---------+
+|Victor| 21|30.52116|115.84947|
+|  Anne| 21|30.99383|115.38257|
+|Jeremy| 21|30.76999|115.65005|
+|Daniel| 21|30.59856|115.43579|
+| Steve| 21|30.70471|115.55534|
+|Andrea| 21|30.88699|115.75182|
+| Irene| 21|31.19049|115.36038|
+|  Gary| 21|30.99383|115.38257|
+|  Lois| 21|30.99383|115.38257|
+| Doris| 21|30.52116|115.84947|
++------+---+--------+---------+
+
+[FP-LY-NY] Final Dataframe in 0.999 seconds
+[FP-LY-NY] Do you want to know the exact location of these people [y/n] :: n
+
+
+[FP-LY-NY] Do you want to continue or quit [c/q]: c
+
+
+[FP-LY-NY] Great! let's continue to do some more searches...
+
+
+[FP-LY-NY] Please enter your first name: Taylor
+[FP-LY-NY] Please enter your age: 69
+[FP-LY-NY] Please enter your location details in latitude: 52.5643
+[FP-LY-NY] Please enter your location details in longitude: 31.1364
+
+
+[FP-LY-NY] Your current approximate location is - 18, Советская улица, Хальч, Ветковский район, Гомельская область, 247120, Беларусь
+
+
+FP-LY-NY -> Top 10 People In Close Proximity
+[Stage 13:===========================================>              (6 + 2) / 8]+-------+---+--------+---------+
+                                                                                |   name|age|latitude|longitude|
++-------+---+--------+---------+
+|Kenneth| 69| 52.5643|  31.1364|
+| Ernest| 69|52.36389| 30.39472|
+| Philip| 69| 52.5387|  30.9173|
+|Matthew| 69| 52.7179|  30.5701|
+| Teresa| 69| 52.5396|  31.9275|
+|  Linda| 69|52.06314| 31.18567|
+|   Adam| 69| 52.5387|  30.9173|
+| Justin| 69| 52.5387|  30.9173|
+|Jeffrey| 69| 52.3506|  31.1121|
+|   Anne| 69| 52.7179|  30.5701|
++-------+---+--------+---------+
+
+[FP-LY-NY] Final Dataframe in 1.035 seconds
+[FP-LY-NY] Do you want to know the exact location of these people [y/n] :: n
+
+
+[FP-LY-NY] Do you want to continue or quit [c/q]: c
+
+
+[FP-LY-NY] Great! let's continue to do some more searches...
+
+
+[FP-LY-NY] Please enter your first name: Adam
+[FP-LY-NY] Please enter your age: 55
+[FP-LY-NY] Please enter your location details in latitude: -18.83333
+[FP-LY-NY] Please enter your location details in longitude: -65.36667
+
+
+[FP-LY-NY] Your current approximate location is - Robledos, Provincia Oropeza, CHQ, Bolivia
+
+
+FP-LY-NY -> Top 10 People In Close Proximity
+                                                                                +--------+---+---------+---------+
+|    name|age| latitude|longitude|
++--------+---+---------+---------+
+|   Jason| 55|-19.18929|-65.12329|
+|Michelle| 55|-18.83333|-65.36667|
+|  Angela| 55|-18.83333|-65.36667|
+|  Steven| 55|-19.00556|-65.52861|
+|   Norma| 55|-19.03332|-65.26274|
+| Heather| 55|-18.83333|-65.36667|
+|  Louise| 55|-18.81667|-65.06667|
+|   Carol| 55|-18.81667|-65.06667|
+| Dorothy| 55|-18.81667|-65.06667|
+| Michael| 55|-18.81667|-65.06667|
++--------+---+---------+---------+
+
+[FP-LY-NY] Final Dataframe in 0.937 seconds
+[FP-LY-NY] Do you want to know the exact location of these people [y/n] :: n
+
+
+[FP-LY-NY] Do you want to continue or quit [c/q]: c
+
+
+[FP-LY-NY] Great! let's continue to do some more searches...
+
+
+[FP-LY-NY] Please enter your first name: Martha
+[FP-LY-NY] Please enter your age: 35
+[FP-LY-NY] Please enter your location details in latitude: 52.5643
+[FP-LY-NY] Please enter your location details in longitude: 31.1364
+
+
+[FP-LY-NY] Your current approximate location is - 18, Советская улица, Хальч, Ветковский район, Гомельская область, 247120, Беларусь
+
+
+FP-LY-NY -> Top 10 People In Close Proximity
+                                                                                +--------+---+--------+---------+
+|    name|age|latitude|longitude|
++--------+---+--------+---------+
+|   Steve| 35| 52.5643|  31.1364|
+| Phyllis| 35| 52.5643|  31.1364|
+|   Frank| 35| 52.5643|  31.1364|
+|    Adam| 35| 52.4345|  30.9754|
+|Jonathan| 35| 52.5387|  30.9173|
+|   Julie| 35|52.36389| 30.39472|
+|  Martin| 35| 52.5396|  31.9275|
+|   Karen| 35| 52.4345|  30.9754|
+|    Mary| 35| 52.7179|  30.5701|
+|   Wanda| 35|52.06314| 31.18567|
++--------+---+--------+---------+
+
+[FP-LY-NY] Final Dataframe in 0.958 seconds
+[FP-LY-NY] Do you want to know the exact location of these people [y/n] :: n
+
+
+[FP-LY-NY] Do you want to continue or quit [c/q]: c
+
+
+[FP-LY-NY] Great! let's continue to do some more searches...
+
+
+[FP-LY-NY] Please enter your first name: Julie
+[FP-LY-NY] Please enter your age: 61
+[FP-LY-NY] Please enter your location details in latitude: 49.57903
+[FP-LY-NY] Please enter your location details in longitude: 111.97638
+
+
+[FP-LY-NY] Your current approximate location is - Кыра, Кыринский район, Забайкальский край, СФО, 674250, РФ
+
+
+FP-LY-NY -> Top 10 People In Close Proximity
+[Stage 19:=======>                                                  (1 + 7) / 8]+----------+---+--------+---------+
+|      name|age|latitude|longitude|
++----------+---+--------+---------+
+|    Brenda| 61|49.57903|111.97638|
+|Jacqueline| 61|49.57903|111.97638|
+|     Norma| 61|49.57903|111.97638|
+|   Stephen| 61|49.01667|111.63333|
+|  Benjamin| 61|50.28139|113.28667|
+| Elizabeth| 61|50.28139|113.28667|
+|   Marilyn| 61|   49.15|112.73333|
+|     Peter| 61|49.01667|111.63333|
+|    Steven| 61|49.01667|111.63333|
+|   Melissa| 61|49.01667|111.63333|
++----------+---+--------+---------+
+
+[FP-LY-NY] Final Dataframe in 0.999 seconds
+d
+Error: invalid choice: d. (choose from y, n)
+[FP-LY-NY] Do you want to know the exact location of these people [y/n] :: n
+
+
+[FP-LY-NY] Do you want to continue or quit [c/q]: c
+
+
+[FP-LY-NY] Great! let's continue to do some more searches...
+
+
+[FP-LY-NY] Please enter your first name: Philip
+[FP-LY-NY] Please enter your age: 48
+[FP-LY-NY] Please enter your location details in latitude: -6.17221
+[FP-LY-NY] Please enter your location details in longitude: 35.73947
+
+
+[FP-LY-NY] Your current approximate location is - T5, Majengo, Dodoma, Central, Tanzania
+
+
+FP-LY-NY -> Top 10 People In Close Proximity
++-------+---+--------+---------+
+|   name|age|latitude|longitude|
++-------+---+--------+---------+
+| Teresa| 48|-6.17526| 35.79266|
+|Antonio| 48|-5.88333| 35.23333|
+| Teresa| 48|    -7.2| 35.73333|
+|Jessica| 48|    -7.2| 35.73333|
+|   Gary| 48|   -5.85|    34.95|
+|  Betty| 48|    -7.2| 35.73333|
+|  Marie| 48|-5.88333| 35.23333|
+|  Paula| 48|   -5.85|    34.95|
+|  Kelly| 48|   -5.85|    34.95|
+|  Keith| 48|   -5.85|    34.95|
++-------+---+--------+---------+
+
+[FP-LY-NY] Final Dataframe in 0.933 seconds
+[FP-LY-NY] Do you want to know the exact location of these people [y/n] :: y
+
+
+FP-LY-NY -> Top 10 People In Close Proximity with Exact Location
++-------+---+--------------------+
+|   name|age|            location|
++-------+---+--------------------+
+| Teresa| 48|Ipagala, Dodoma, ...|
+|Antonio| 48|T3, Manyoni, Sing...|
+| Teresa| 48|T5, Makatapola, I...|
+|Jessica| 48|T5, Makatapola, I...|
+|   Gary| 48|T3, Manyoni, Sing...|
+|  Betty| 48|T5, Makatapola, I...|
+|  Marie| 48|T3, Manyoni, Sing...|
+|  Paula| 48|T3, Manyoni, Sing...|
+|  Kelly| 48|T3, Manyoni, Sing...|
+|  Keith| 48|T3, Manyoni, Sing...|
++-------+---+--------------------+
+
+[FP-LY-NY] Location Dataframe in 7.375 seconds
+
+
+[FP-LY-NY] Do you want to continue or quit [c/q]: c
+
+
+[FP-LY-NY] Great! let's continue to do some more searches...
+
+
+[FP-LY-NY] Please enter your first name: Betty
+[FP-LY-NY] Please enter your age: 115
+[FP-LY-NY] Please enter your location details in latitude: 24.80379
+[FP-LY-NY] Please enter your location details in longitude: 125.30222
+
+
+[FP-LY-NY] Your current approximate location is - 平良城辺線, 宮古島市, 沖縄県, 日本
+
+
+FP-LY-NY -> Top 10 People In Close Proximity
+                                                                                +-------+---+--------+---------+
+|   name|age|latitude|longitude|
++-------+---+--------+---------+
+|   Anne|115|24.80379|125.30222|
+|   Paul|115|24.34478|124.15717|
+|    Amy|115|26.33583|127.80139|
+| Robert|115|26.35937|127.86735|
+|  Robin|115|26.26265|127.76147|
+| Gloria|115| 26.2125|127.68111|
+|  Norma|115|26.33694|127.87194|
+|Douglas|115|26.30944|127.77028|
+|  Norma|115|26.42333|127.82139|
+|Jessica|115|26.35937|127.86735|
++-------+---+--------+---------+
+
+[FP-LY-NY] Final Dataframe in 0.885 seconds
+[FP-LY-NY] Do you want to know the exact location of these people [y/n] :: n
+
+
+[FP-LY-NY] Do you want to continue or quit [c/q]: c
+
+
+[FP-LY-NY] Great! let's continue to do some more searches...
+
+
+[FP-LY-NY] Please enter your first name: BillyBullCatDog
+[FP-LY-NY] Please enter your age: 41
+[FP-LY-NY] Please enter your location details in latitude: 10.15526
+[FP-LY-NY] Please enter your location details in longitude: -68.5663
+
+
+[FP-LY-NY] Your current approximate location is - Carretera Panamericana, San Felipe, Distrito Nirgua, Yaracuy, Venezuela
+
+
+FP-LY-NY -> Top 10 People In Close Proximity
+[Stage 27:>                                                         (0 + 8) / 8]+-------+---+--------+---------+
+|   name|age|latitude|longitude|
++-------+---+--------+---------+
+|   Earl| 41|10.15526| -68.5663|
+|   Anna| 41|10.46967|-68.55857|
+|   Fred| 41|10.15917|-69.01111|
+| Janice| 41| 9.69871|-68.43348|
+|Rebecca| 41| 9.69871|-68.43348|
+|Phillip| 41|10.16202|-68.00765|
+| Ashley| 41| 9.91861|-68.30472|
+|   Alan| 41| 9.91861|-68.30472|
+|  Nancy| 41|10.02889|-69.08944|
+|   Anna| 41|10.16202|-68.00765|
++-------+---+--------+---------+
+
+[FP-LY-NY] Final Dataframe in 0.877 seconds
+n
+
+
+[FP-LY-NY] Do you want to continue or quit [c/q]: q
+[FP-LY-NY] Are you sure you want to quit this App? [y/N]: y
+
+
+[FP-LY-NY] Thank You for using 'Find->People->Like->You->Near->You' App.
+ GoodBye!
+
+Process finished with exit code 0

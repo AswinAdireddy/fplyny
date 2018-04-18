@@ -1,0 +1,260 @@
+/usr/bin/python2.7 /home/aparasur/dev/fplyny/fplyny.py --proximity --view_proximity
+-----------------------------------------------------------
+Welcome to 'Find->People->Like->You->Near->You Application'
+-----------------------------------------------------------
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel).
+16/12/07 13:42:26 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[FP-LY-NY] Loaded data in memory in 9.992 seconds
+[FP-LY-NY] View Proximity Info Option is Set to ON
+[FP-LY-NY] Please enter your first name: Hondu
+[FP-LY-NY] Please enter your age: 108
+[FP-LY-NY] Please enter your location details in latitude: 56.78028
+[FP-LY-NY] Please enter your location details in longitude: 62.04944
+[FP-LY-NY] Please enter new proximity in Kilo Meter for search :: 0.01
+[FP-LY-NY] Proximity Radius is now set at 0.01 km
+-------------------------------------------------
+[FP-LY-NY] Your current approximate location is - улица Пищевиков, Микрорайон Северный, Богданович, городской округ Богданович, Южный управленческий округ, Свердловская область, Уральский федеральный округ, 623530, РФ
+[FP-LY-NY]  Locating people similar to you in a 0.01 km radius.
+-------------------------------------------------
+
+
+--------------------------------------------------------
+        Top 10 People In Close Proximity                
+--------------------------------------------------------
++--------+---+--------+---------+---------------+
+|    name|age|latitude|longitude|proximity_in_km|
++--------+---+--------+---------+---------------+
+|     Ann|108| 56.4704|  61.6092|           0.01|
+| Cynthia|108|56.78028| 62.04944|           0.01|
+|Michelle|108| 56.5982|  61.0953|           0.01|
+|    Anna|108|    56.4| 61.88194|           0.01|
+| Carolyn|108| 56.5982|  61.0953|           0.01|
+|   Peter|108| 56.4704|  61.6092|           0.01|
+|   Jason|108|56.78028| 62.04944|           0.01|
+|  Victor|108|57.00993| 61.45776|           0.01|
+|   Aaron|108| 56.4704|  61.6092|           0.01|
+|Benjamin|108| 56.4185|  61.9329|           0.01|
++--------+---+--------+---------+---------------+
+
+Final DF in 13.591 seconds
+[FP-LY-NY] Do you want to know the exact location of these people [y/n] :: y
+
+
+--------------------------------------------------------
+  Top 10 People In Close Proximity with Exact Location  
+--------------------------------------------------------
++--------+---+--------------------+---------------+
+|    name|age|            location|proximity_in_km|
++--------+---+--------------------+---------------+
+|   Scott|108|3, Молодёжная ули...|           0.01|
+|   Kelly|108|улица Победы, Дву...|           0.01|
+|   Jerry|108|улица Пищевиков, ...|           0.01|
+|    Carl|108|Новая улица, Гряз...|           0.01|
+|     Ann|108|11, улица Мира, П...|           0.01|
+| Cynthia|108|улица Пищевиков, ...|           0.01|
+|Michelle|108|улица Победы, Дву...|           0.01|
+|   Bruce|108|Новая улица, Гряз...|           0.01|
+|    Tina|108|Россельхозбанк, 1...|           0.01|
+|  Gerald|108|Россельхозбанк, 1...|           0.01|
++--------+---+--------------------+---------------+
+
+Location DF in 7.912 seconds
+[FP-LY-NY] Executed query in 39.53 seconds
+
+
+[FP-LY-NY] Do you want to continue or quit [c/q]: c
+
+
+[FP-LY-NY] Great! let's continue to do some more searches...
+
+
+[FP-LY-NY] Do you want to search with new proximity value or start a new search [p/n] :: n
+[FP-LY-NY] View Proximity Info Option is Set to ON
+[FP-LY-NY] Please enter your first name: gaur
+[FP-LY-NY] Please enter your age: 67
+[FP-LY-NY] Please enter your location details in latitude: 54.3421
+[FP-LY-NY] Please enter your location details in longitude: 67.4532
+[FP-LY-NY] Please enter new proximity in Kilo Meter for search :: 0.01
+[FP-LY-NY] Proximity Radius is now set at 0.01 km
+-------------------------------------------------
+[FP-LY-NY] Your current approximate location is - Спасовка, Есильский район, Северо-Казахстанская область, Қазақстан
+[FP-LY-NY]  Locating people similar to you in a 0.01 km radius.
+-------------------------------------------------
+
+
+--------------------------------------------------------
+        Top 10 People In Close Proximity                
+--------------------------------------------------------
++----+---+--------+---------+---------------+
+|name|age|latitude|longitude|proximity_in_km|
++----+---+--------+---------+---------------+
++----+---+--------+---------+---------------+
+
+Final DF in 1.646 seconds
+[FP-LY-NY] Do you want to know the exact location of these people [y/n] :: n
+[FP-LY-NY] Executed query in 8.126 seconds
+
+
+[FP-LY-NY] Do you want to continue or quit [c/q]: c
+
+
+[FP-LY-NY] Great! let's continue to do some more searches...
+
+
+[FP-LY-NY] Do you want to search with new proximity value or start a new search [p/n] :: n
+[FP-LY-NY] View Proximity Info Option is Set to ON
+[FP-LY-NY] Please enter your first name: haur
+[FP-LY-NY] Please enter your age: 88
+[FP-LY-NY] Please enter your location details in latitude: 76.9987
+[FP-LY-NY] Please enter your location details in longitude: -12.6543
+[FP-LY-NY] Please enter new proximity in Kilo Meter for search :: 0.02
+[FP-LY-NY] Proximity Radius is now set at 0.02 km
+-------------------------------------------------
+[FP-LY-NY] Your current approximate location is - Unknown
+[FP-LY-NY]  Locating people similar to you in a 0.02 km radius.
+-------------------------------------------------
+
+
+--------------------------------------------------------
+        Top 10 People In Close Proximity                
+--------------------------------------------------------
+[Stage 7:===================================================>       (7 + 1) / 8]+----+---+--------+---------+---------------+
+|name|age|latitude|longitude|proximity_in_km|
++----+---+--------+---------+---------------+
++----+---+--------+---------+---------------+
+
+Final DF in 1.256 seconds
+d
+Error: invalid choice: d. (choose from y, n)
+[FP-LY-NY] Do you want to know the exact location of these people [y/n] :: n
+[FP-LY-NY] Executed query in 17.468 seconds
+
+
+[FP-LY-NY] Do you want to continue or quit [c/q]: c
+
+
+[FP-LY-NY] Great! let's continue to do some more searches...
+
+
+[FP-LY-NY] Do you want to search with new proximity value or start a new search [p/n] :: n
+[FP-LY-NY] View Proximity Info Option is Set to ON
+[FP-LY-NY] Please enter your first name: Junior
+[FP-LY-NY] Please enter your age: 10
+[FP-LY-NY] Please enter your location details in latitude: 27.2083
+[FP-LY-NY] Please enter your location details in longitude: 53.0361
+[FP-LY-NY] Please enter new proximity in Kilo Meter for search :: 0.02
+[FP-LY-NY] Proximity Radius is now set at 0.02 km
+-------------------------------------------------
+[FP-LY-NY] Your current approximate location is - 96, مهرگان, بخش مرکزی, شهرستان پارسیان, استان ‏هرمزگان‎, ‏ایران‎
+[FP-LY-NY]  Locating people similar to you in a 0.02 km radius.
+-------------------------------------------------
+
+
+--------------------------------------------------------
+        Top 10 People In Close Proximity                
+--------------------------------------------------------
++---------+---+--------+---------+---------------+
+|     name|age|latitude|longitude|proximity_in_km|
++---------+---+--------+---------+---------------+
+|  Stephen| 10| 27.2083|  53.0361|           0.01|
+| Lawrence| 10|  27.334|   53.179|           0.01|
+|  Jeffrey| 10| 27.4761|  52.6074|           0.01|
+|     Anna| 10| 27.2083|  53.0361|           0.01|
+|     John| 10| 27.4761|  52.6074|           0.01|
+|  Dorothy| 10| 27.4761|  52.6074|           0.01|
+|     Juan| 10|  27.334|   53.179|           0.01|
+|    Nancy| 10| 27.4761|  52.6074|           0.01|
+|     Juan| 10|  27.834|  52.0628|           0.02|
+|Christina| 10|27.82817| 52.32536|           0.02|
++---------+---+--------+---------+---------------+
+
+Final DF in 1.038 seconds
+[FP-LY-NY] Do you want to know the exact location of these people [y/n] :: n
+[FP-LY-NY] Executed query in 7.426 seconds
+
+
+[FP-LY-NY] Do you want to continue or quit [c/q]: c
+
+
+[FP-LY-NY] Great! let's continue to do some more searches...
+
+
+[FP-LY-NY] Do you want to search with new proximity value or start a new search [p/n] :: n
+[FP-LY-NY] View Proximity Info Option is Set to ON
+[FP-LY-NY] Please enter your first name: Chalwardo
+[FP-LY-NY] Please enter your age: 9
+[FP-LY-NY] Please enter your location details in latitude: 23.84472
+[FP-LY-NY] Please enter your location details in longitude: 116.85707
+[FP-LY-NY] Please enter new proximity in Kilo Meter for search :: 100000
+[FP-LY-NY] Proximity Radius is now set at 100000.0 km
+-------------------------------------------------
+[FP-LY-NY] Your current approximate location is - X084, 土坑村, 饶平县 (Raoping), 潮州市 / Chaozhou, 广东省, 中国
+[FP-LY-NY]  Locating people similar to you in a 100000.0 km radius.
+-------------------------------------------------
+
+
+--------------------------------------------------------
+        Top 10 People In Close Proximity                
+--------------------------------------------------------
++----+---+--------+---------+---------------+
+|name|age|latitude|longitude|proximity_in_km|
++----+---+--------+---------+---------------+
++----+---+--------+---------+---------------+
+
+Final DF in 0.482 seconds
+[FP-LY-NY] Do you want to know the exact location of these people [y/n] :: n
+[FP-LY-NY] Executed query in 19.329 seconds
+
+
+[FP-LY-NY] Do you want to continue or quit [c/q]: c
+
+
+[FP-LY-NY] Great! let's continue to do some more searches...
+
+
+[FP-LY-NY] Do you want to search with new proximity value or start a new search [p/n] :: n
+[FP-LY-NY] View Proximity Info Option is Set to ON
+[FP-LY-NY] Please enter your first name: Chalwardo
+[FP-LY-NY] Please enter your age: 10
+[FP-LY-NY] Please enter your location details in latitude: 23.84472
+[FP-LY-NY] Please enter your location details in longitude: 116.85707
+[FP-LY-NY] Please enter new proximity in Kilo Meter for search :: 100000
+[FP-LY-NY] Proximity Radius is now set at 100000.0 km
+-------------------------------------------------
+[FP-LY-NY] Your current approximate location is - X084, 土坑村, 饶平县 (Raoping), 潮州市 / Chaozhou, 广东省, 中国
+[FP-LY-NY]  Locating people similar to you in a 100000.0 km radius.
+-------------------------------------------------
+
+
+--------------------------------------------------------
+        Top 10 People In Close Proximity                
+--------------------------------------------------------
++--------+---+--------+---------+---------------+
+|    name|age|latitude|longitude|proximity_in_km|
++--------+---+--------+---------+---------------+
+|   Terry| 10|23.36814|116.71479|           0.01|
+|   Jimmy| 10|23.56134| 116.8125|           0.01|
+|Lawrence| 10|24.20432|116.55336|           0.01|
+|  Teresa| 10|23.76774|117.12266|           0.01|
+|Jennifer| 10|23.72048|117.14866|           0.01|
+| Kathryn| 10|23.36814|116.71479|           0.01|
+|    Lori| 10| 23.7199|117.17103|           0.01|
+|   Diane| 10|23.76992|116.67166|           0.01|
+|    Lori| 10|23.42436|117.01659|           0.01|
+|    Paul| 10|23.38543|116.50498|           0.01|
++--------+---+--------+---------+---------------+
+
+Final DF in 0.912 seconds
+[FP-LY-NY] Do you want to know the exact location of these people [y/n] :: n
+[FP-LY-NY] Executed query in 7.032 seconds
+
+
+[FP-LY-NY] Do you want to continue or quit [c/q]: q
+Are you sure you want to quit this App? [y/N]: y
+
+
+Thank You for using 'Find->People->Like->You->Near->You' App.
+ GoodBye!
+
+Process finished with exit code 0

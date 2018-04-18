@@ -1,0 +1,256 @@
+/usr/bin/python2.7 /home/aparasur/dev/fplyny/fplyny.py --proximity --view_proximity
+-----------------------------------------------------------
+Welcome to 'Find->People->Like->You->Near->You Application'
+-----------------------------------------------------------
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel).
+16/12/07 11:40:15 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[FP-LY-NY] Loaded data in memory in 10.194 seconds
+[FP-LY-NY] View Proximity Info Option is Set to ON
+[FP-LY-NY] Please enter your first name: dsfdfj
+[FP-LY-NY] Please enter your age: 43
+[FP-LY-NY] Please enter your location details in latitude: 43.44
+[FP-LY-NY] Please enter your location details in longitude: 21.2343
+[FP-LY-NY] Please enter new proximity in Kilo Meter for search :: .2
+[FP-LY-NY] Proximity Radius is now set at 0.2 km
+-------------------------------------------------
+[FP-LY-NY] Your current approximate location is - Бруски пут, Крушевац, Град Крушевац, Расински округ, Централна Србија, Србија
+[FP-LY-NY]  Locating people similar to you in a 0.2 km radius.
+-------------------------------------------------
+
+
+--------------------------------------------------------
+        Top 10 People In Close Proximity                
+--------------------------------------------------------
++---------+---+--------+---------+---------+
+|     name|age|latitude|longitude|proximity|
++---------+---+--------+---------+---------+
+|     Gary| 43|43.86083| 21.40778|     0.01|
+|   Evelyn| 43|43.32472| 21.90333|     0.01|
+|    Helen| 43|43.32472| 21.90333|     0.01|
+|     Eric| 43|43.97713| 21.26121|     0.01|
+|     Adam| 43|43.97713| 21.26121|     0.01|
+|  Brandon| 43|43.19817| 21.83258|     0.01|
+|Christine| 43|  43.863| 21.09345|     0.01|
+|   Philip| 43|43.13826| 21.27339|     0.01|
+|   Cheryl| 43|  43.863| 21.09345|     0.01|
+|   Ernest| 43|  43.863| 21.09345|     0.01|
++---------+---+--------+---------+---------+
+
+ProximitySortedDF in 14.392 seconds
+[FP-LY-NY] Do you want to know the exact location of these people [y/n] :: n
+[FP-LY-NY] Executed query in 17.896 seconds
+
+
+[FP-LY-NY] Do you want to continue or quit [c/q]: c
+
+
+[FP-LY-NY] Great! let's continue to do some more searches...
+
+
+[FP-LY-NY] Do you want to search with new proximity value or start a new search [p/n] :: n
+Uncaching People Table
+[FP-LY-NY] View Proximity Info Option is Set to ON
+[FP-LY-NY] Please enter your first name: asdds
+[FP-LY-NY] Please enter your age: 65
+[FP-LY-NY] Please enter your location details in latitude: 6.97
+[FP-LY-NY] Please enter your location details in longitude: 13.63
+[FP-LY-NY] Please enter new proximity in Kilo Meter for search :: .4
+[FP-LY-NY] Proximity Radius is now set at 0.4 km
+-------------------------------------------------
+[FP-LY-NY] Your current approximate location is - Nyambaka, Vina, AD, Cameroun
+[FP-LY-NY]  Locating people similar to you in a 0.4 km radius.
+-------------------------------------------------
+
+
+--------------------------------------------------------
+        Top 10 People In Close Proximity                
+--------------------------------------------------------
++---------+---+--------+---------+---------+
+|     name|age|latitude|longitude|proximity|
++---------+---+--------+---------+---------+
+|  Michael| 65| 7.32765| 13.58472|     0.01|
+|     Gary| 65| 6.83333|     14.7|     0.02|
+|    Julie| 65| 6.46504| 12.62843|     0.02|
+|     Rose| 65|    7.05| 14.43333|     0.02|
+|    Julie| 65| 6.83333|     14.7|     0.02|
+|      Amy| 65|    7.05| 14.43333|     0.02|
+|    James| 65| 6.51667|     14.3|     0.02|
+|  Carolyn| 65| 6.51667|     14.3|     0.02|
+|    Julia| 65| 6.83333|     14.7|     0.02|
+|Christina| 65| 6.46504| 12.62843|     0.02|
++---------+---+--------+---------+---------+
+
+ProximitySortedDF in 11.608 seconds
+[FP-LY-NY] Do you want to know the exact location of these people [y/n] :: y
++---------+---+--------------------+---------+
+|     name|age|            location|proximity|
++---------+---+--------------------+---------+
+|  Michael| 65|Rue du Petit Marc...|     0.01|
+|     Gary| 65|D22, Djohong, Mbé...|     0.02|
+|    Julie| 65|Tibati-Ngaoundal,...|     0.02|
+|     Rose| 65|Bélel - Mbang Rey...|     0.02|
+|    Julie| 65|D22, Djohong, Mbé...|     0.02|
+|      Amy| 65|Bélel - Mbang Rey...|     0.02|
+|    James| 65|N1, Meiganga, Mbé...|     0.02|
+|  Carolyn| 65|N1, Meiganga, Mbé...|     0.02|
+|    Julia| 65|D22, Djohong, Mbé...|     0.02|
+|Christina| 65|Tibati-Ngaoundal,...|     0.02|
++---------+---+--------------------+---------+
+
+Result view in 7.385 seconds
+[FP-LY-NY] Executed query in 27.621 seconds
+
+
+[FP-LY-NY] Do you want to continue or quit [c/q]: c
+
+
+[FP-LY-NY] Great! let's continue to do some more searches...
+
+
+[FP-LY-NY] Do you want to search with new proximity value or start a new search [p/n] :: p
+[FP-LY-NY] Please enter new proximity in Kilo Meter for search :: 0,02
+Error: 0,02 is not a valid floating point value
+[FP-LY-NY] Please enter new proximity in Kilo Meter for search :: 0.02
+
+
+--------------------------------------------------------
+        Top 10 People In Close Proximity                
+--------------------------------------------------------
++---------+---+--------+---------+---------+
+|     name|age|latitude|longitude|proximity|
++---------+---+--------+---------+---------+
+|  Michael| 65| 7.32765| 13.58472|     0.01|
+|     Gary| 65| 6.83333|     14.7|     0.02|
+|    Julie| 65| 6.46504| 12.62843|     0.02|
+|     Rose| 65|    7.05| 14.43333|     0.02|
+|    Julie| 65| 6.83333|     14.7|     0.02|
+|      Amy| 65|    7.05| 14.43333|     0.02|
+|    James| 65| 6.51667|     14.3|     0.02|
+|  Carolyn| 65| 6.51667|     14.3|     0.02|
+|    Julia| 65| 6.83333|     14.7|     0.02|
+|Christina| 65| 6.46504| 12.62843|     0.02|
++---------+---+--------+---------+---------+
+
+ProximitySortedDF in 0.919 seconds
+[FP-LY-NY] Do you want to know the exact location of these people [y/n] :: y
++---------+---+--------------------+---------+
+|     name|age|            location|proximity|
++---------+---+--------------------+---------+
+|  Michael| 65|Rue du Petit Marc...|     0.01|
+|     Gary| 65|D22, Djohong, Mbé...|     0.02|
+|    Julie| 65|Tibati-Ngaoundal,...|     0.02|
+|     Rose| 65|Bélel - Mbang Rey...|     0.02|
+|    Julie| 65|D22, Djohong, Mbé...|     0.02|
+|      Amy| 65|Bélel - Mbang Rey...|     0.02|
+|    James| 65|N1, Meiganga, Mbé...|     0.02|
+|  Carolyn| 65|N1, Meiganga, Mbé...|     0.02|
+|    Julia| 65|D22, Djohong, Mbé...|     0.02|
+|Christina| 65|Tibati-Ngaoundal,...|     0.02|
++---------+---+--------------------+---------+
+
+Result view in 7.002 seconds
+[FP-LY-NY] Executed query in 14.098 seconds
+
+
+[FP-LY-NY] Do you want to continue or quit [c/q]: c
+
+
+[FP-LY-NY] Great! let's continue to do some more searches...
+
+
+[FP-LY-NY] Do you want to search with new proximity value or start a new search [p/n] :: p
+[FP-LY-NY] Please enter new proximity in Kilo Meter for search :: 0.01
+
+
+--------------------------------------------------------
+        Top 10 People In Close Proximity                
+--------------------------------------------------------
++---------+---+--------+---------+---------+
+|     name|age|latitude|longitude|proximity|
++---------+---+--------+---------+---------+
+|  Michael| 65| 7.32765| 13.58472|     0.01|
+|     Gary| 65| 6.83333|     14.7|     0.02|
+|    Julie| 65| 6.46504| 12.62843|     0.02|
+|     Rose| 65|    7.05| 14.43333|     0.02|
+|    Julie| 65| 6.83333|     14.7|     0.02|
+|      Amy| 65|    7.05| 14.43333|     0.02|
+|    James| 65| 6.51667|     14.3|     0.02|
+|  Carolyn| 65| 6.51667|     14.3|     0.02|
+|    Julia| 65| 6.83333|     14.7|     0.02|
+|Christina| 65| 6.46504| 12.62843|     0.02|
++---------+---+--------+---------+---------+
+
+ProximitySortedDF in 0.713 seconds
+[FP-LY-NY] Do you want to know the exact location of these people [y/n] :: n
+[FP-LY-NY] Executed query in 833.242 seconds
+
+
+[FP-LY-NY] Do you want to continue or quit [c/q]: c
+
+
+[FP-LY-NY] Great! let's continue to do some more searches...
+
+
+[FP-LY-NY] Do you want to search with new proximity value or start a new search [p/n] :: n
+Uncaching People Table
+[FP-LY-NY] View Proximity Info Option is Set to ON
+[FP-LY-NY] Please enter your first name: teddy
+[FP-LY-NY] Please enter your age: 66
+[FP-LY-NY] Please enter your location details in latitude: 43.232
+[FP-LY-NY] Please enter your location details in longitude: 3432.323
+[FP-LY-NY] Please enter new proximity in Kilo Meter for search :: .01
+[FP-LY-NY] Proximity Radius is now set at 0.01 km
+-------------------------------------------------
+[FP-LY-NY] Your current approximate location is - Unknown
+[FP-LY-NY]  Locating people similar to you in a 0.01 km radius.
+-------------------------------------------------
+
+
+--------------------------------------------------------
+        Top 10 People In Close Proximity                
+--------------------------------------------------------
++---------+---+--------+----------+---------+
+|     name|age|latitude| longitude|proximity|
++---------+---+--------+----------+---------+
+|   Carlos| 66| 61.1089| -149.4403|     0.37|
+|     Anne| 66| 61.1089| -149.4403|     0.37|
+|     Paul| 66|65.50331|-171.70396|      0.4|
+|    Scott| 66|65.50331|-171.70396|      0.4|
+|    Karen| 66|65.50331|-171.70396|      0.4|
+|Christina| 66| 21.3278| -157.8294|     0.41|
+|   Philip| 66| 21.3278| -157.8294|     0.41|
+|  Russell| 66| 21.3068| -157.8607|     0.41|
+|  Michael| 66| 21.3095|  -157.863|     0.41|
+|   Justin| 66| 21.3095|  -157.863|     0.41|
++---------+---+--------+----------+---------+
+
+ProximitySortedDF in 12.17 seconds
+[FP-LY-NY] Do you want to know the exact location of these people [y/n] :: y
++---------+---+--------------------+---------+
+|     name|age|            location|proximity|
++---------+---+--------------------+---------+
+|   Carlos| 66|Anchorage, Alaska...|     0.37|
+|     Anne| 66|Anchorage, Alaska...|     0.37|
+|     Paul| 66|Мост через реку Л...|      0.4|
+|    Scott| 66|Мост через реку Л...|      0.4|
+|    Karen| 66|Мост через реку Л...|      0.4|
+|Christina| 66|Booth Road, Pacif...|     0.41|
+|   Philip| 66|Booth Road, Pacif...|     0.41|
+|  Russell| 66|Hawaiian Electric...|     0.41|
+|  Michael| 66|bankoh parking ce...|     0.41|
+|   Justin| 66|bankoh parking ce...|     0.41|
++---------+---+--------------------+---------+
+
+Result view in 7.844 seconds
+[FP-LY-NY] Executed query in 46.015 seconds
+
+
+[FP-LY-NY] Do you want to continue or quit [c/q]: q
+Are you sure you want to quit this App? [y/N]: y
+
+
+Thank You for using 'Find->People->Like->You->Near->You' App.
+ GoodBye!
+
+Process finished with exit code 0

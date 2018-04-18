@@ -1,0 +1,386 @@
+/usr/bin/python2.7 /home/aparasur/dev/fplyny/fplyny.py --proximity --view_proximity
+-----------------------------------------------------------
+Welcome to 'Find->People->Like->You->Near->You Application'
+-----------------------------------------------------------
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel).
+16/12/07 13:33:25 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[FP-LY-NY] Loaded data in memory in 12.819 seconds
+[FP-LY-NY] View Proximity Info Option is Set to ON
+[FP-LY-NY] Please enter your first name: Aswin
+[FP-LY-NY] Please enter your age: 57
+[FP-LY-NY] Please enter your location details in latitude: 34.4567
+[FP-LY-NY] Please enter your location details in longitude: 112.3456
+[FP-LY-NY] Please enter new proximity in Kilo Meter for search :: 0.3
+[FP-LY-NY] Proximity Radius is now set at 0.3 km
+-------------------------------------------------
+[FP-LY-NY] Your current approximate location is - S323, 伊川县, 伊川县 (Yichuan), 洛阳市 / Luoyang, 河南省, 中国
+[FP-LY-NY]  Locating people similar to you in a 0.3 km radius.
+-------------------------------------------------
+
+
+--------------------------------------------------------
+        Top 10 People In Close Proximity                
+--------------------------------------------------------
++-------+---+--------+---------+---------------+
+|   name|age|latitude|longitude|proximity_in_km|
++-------+---+--------+---------+---------------+
+|  Bobby| 57|34.45528|113.02806|           0.01|
+|  Julia| 57|33.93187|112.35642|           0.01|
+|  Betty| 57|33.96348|112.60356|           0.01|
+|  Kathy| 57|33.96221|112.16524|           0.01|
+| Cheryl| 57|34.73806|111.88389|           0.01|
+|Deborah| 57|33.96348|112.60356|           0.01|
+|  Steve| 57|33.95125|112.26222|           0.01|
+|   Lois| 57|33.96221|112.16524|           0.01|
+|  Shawn| 57|34.73806|111.88389|           0.01|
+| Harold| 57|34.45528|113.02806|           0.01|
++-------+---+--------+---------+---------------+
+
+Final DF in 12.205 seconds
+[FP-LY-NY] Do you want to know the exact location of these people [y/n] :: y
+
+
+--------------------------------------------------------
+  Top 10 People In Close Proximity with Exact Location  
+--------------------------------------------------------
++-------+---+--------------------+---------------+
+|   name|age|            location|proximity_in_km|
++-------+---+--------------------+---------------+
+| Harold| 57|少林大道, 登封市, 登封市 (D...|           0.01|
+| Cheryl| 57|G310, 义马市, 义马市 (Y...|           0.01|
+|  Laura| 57|少林大道, 登封市, 登封市 (D...|           0.01|
+|Phyllis| 57|嵩县, 嵩县 (Song), 洛阳...|           0.01|
+|Deborah| 57|S242, 鲁山县 (Lushan...|           0.01|
+|  Betty| 57|S242, 鲁山县 (Lushan...|           0.01|
+|  Steve| 57|嵩县, 嵩县 (Song), 洛阳...|           0.01|
+|   Jose| 57|付店镇, 汝阳县 (Ruyang)...|           0.01|
+|  Scott| 57|S247, 嵩县, 嵩县 (Son...|           0.01|
+|  Bobby| 57|少林大道, 登封市, 登封市 (D...|           0.01|
++-------+---+--------------------+---------------+
+
+Location DF in 7.599 seconds
+[FP-LY-NY] Executed query in 28.471 seconds
+
+
+[FP-LY-NY] Do you want to continue or quit [c/q]: c
+
+
+[FP-LY-NY] Great! let's continue to do some more searches...
+
+
+[FP-LY-NY] Do you want to search with new proximity value or start a new search [p/n] :: n
+[FP-LY-NY] View Proximity Info Option is Set to ON
+[FP-LY-NY] Please enter your first name: Ashton
+[FP-LY-NY] Please enter your age: 12
+[FP-LY-NY] Please enter your location details in latitude: -12.345
+[FP-LY-NY] Please enter your location details in longitude: 54.2342
+[FP-LY-NY] Please enter new proximity in Kilo Meter for search :: 0.01
+[FP-LY-NY] Proximity Radius is now set at 0.01 km
+-------------------------------------------------
+[FP-LY-NY] Your current approximate location is - Unknown
+[FP-LY-NY]  Locating people similar to you in a 0.01 km radius.
+-------------------------------------------------
+
+
+--------------------------------------------------------
+        Top 10 People In Close Proximity                
+--------------------------------------------------------
++----+---+--------+---------+---------------+
+|name|age|latitude|longitude|proximity_in_km|
++----+---+--------+---------+---------------+
++----+---+--------+---------+---------------+
+
+Final DF in 1.102 seconds
+[FP-LY-NY] Do you want to know the exact location of these people [y/n] :: n
+[FP-LY-NY] Executed query in 8.184 seconds
+
+
+[FP-LY-NY] Do you want to continue or quit [c/q]: c
+
+
+[FP-LY-NY] Great! let's continue to do some more searches...
+
+
+[FP-LY-NY] Do you want to search with new proximity value or start a new search [p/n] :: n
+[FP-LY-NY] View Proximity Info Option is Set to ON
+[FP-LY-NY] Please enter your first name: Wade
+[FP-LY-NY] Please enter your age: 54
+[FP-LY-NY] Please enter your location details in latitude: 31.2047
+[FP-LY-NY] Please enter your location details in longitude: 107.5036
+[FP-LY-NY] Please enter new proximity in Kilo Meter for search :: 0.03
+[FP-LY-NY] Proximity Radius is now set at 0.03 km
+-------------------------------------------------
+[FP-LY-NY] Your current approximate location is - G210, 达州市, 通川区 / Tongchuan, 达州市 / Dazhou, 四川省, 中国
+[FP-LY-NY]  Locating people similar to you in a 0.03 km radius.
+-------------------------------------------------
+
+
+--------------------------------------------------------
+        Top 10 People In Close Proximity                
+--------------------------------------------------------
++---------+---+--------+---------+---------------+
+|     name|age|latitude|longitude|proximity_in_km|
++---------+---+--------+---------+---------------+
+|    Scott| 54|30.84367|107.72413|           0.01|
+|   Thomas| 54|31.56506|107.09736|           0.01|
+|Katherine| 54|30.72106| 107.7847|           0.01|
+|    Janet| 54|30.79818|107.68712|           0.01|
+|     Sean| 54|30.77075| 107.4571|           0.01|
+|  Michael| 54|30.66092|107.67895|           0.01|
+|    Linda| 54|31.21592|107.50092|           0.01|
+|  Kathryn| 54|30.69023|107.72087|           0.01|
+|     Todd| 54|30.84367|107.72413|           0.01|
+|  Gregory| 54|30.66092|107.67895|           0.01|
++---------+---+--------+---------+---------------+
+
+Final DF in 1.091 seconds
+[FP-LY-NY] Do you want to know the exact location of these people [y/n] :: y
+
+
+--------------------------------------------------------
+  Top 10 People In Close Proximity with Exact Location  
+--------------------------------------------------------
++---------+---+--------------------+---------------+
+|     name|age|            location|proximity_in_km|
++---------+---+--------------------+---------------+
+|      Joe| 54|G210, 达州市, 通川区 / ...|           0.01|
+|   Evelyn| 54|G318, 碧山镇, Wanzho...|           0.01|
+|      Roy| 54|S102, 龙门镇, Wanzho...|           0.01|
+|Christine| 54|S102, 龙门镇, Wanzho...|           0.01|
+|    Wayne| 54|S208, 中和镇, Wanzho...|           0.01|
+|    Frank| 54|G318, 安胜乡, Wanzho...|           0.01|
+|   Martin| 54|S102, 开江县 / Kaiji...|           0.01|
+|    Janet| 54|G210, 竹阳镇, 大竹县 / ...|           0.01|
+|     Sara| 54|S202, 新宁镇, 开江县 / ...|           0.01|
+|  Matthew| 54|弹子镇, Wanzhou Regi...|           0.01|
++---------+---+--------------------+---------------+
+
+Location DF in 7.296 seconds
+[FP-LY-NY] Executed query in 15.506 seconds
+
+
+[FP-LY-NY] Do you want to continue or quit [c/q]: c
+
+
+[FP-LY-NY] Great! let's continue to do some more searches...
+
+
+[FP-LY-NY] Do you want to search with new proximity value or start a new search [p/n] :: n
+[FP-LY-NY] View Proximity Info Option is Set to ON
+[FP-LY-NY] Please enter your first name: Kate
+[FP-LY-NY] Please enter your age: 77
+[FP-LY-NY] Please enter your location details in latitude: -6.8073
+[FP-LY-NY] Please enter your location details in longitude: 111.8104
+[FP-LY-NY] Please enter new proximity in Kilo Meter for search :: 0.2
+[FP-LY-NY] Proximity Radius is now set at 0.2 km
+-------------------------------------------------
+[FP-LY-NY] Your current approximate location is - Jalan Raya Tuban - Semarang, Sobontoro, Jawa Timur, Indonesia
+[FP-LY-NY]  Locating people similar to you in a 0.2 km radius.
+-------------------------------------------------
+
+
+--------------------------------------------------------
+        Top 10 People In Close Proximity                
+--------------------------------------------------------
+[Stage 10:====================================>                     (5 + 3) / 8]+-------+---+--------+---------+---------------+
+|   name|age|latitude|longitude|proximity_in_km|
++-------+---+--------+---------+---------------+
+|   Ruby| 77| -6.9229| 112.0522|           0.01|
+|  Shawn| 77| -7.0907| 111.3964|           0.01|
+|Cynthia| 77| -6.7924| 111.8916|           0.01|
+| Albert| 77| -6.9505| 111.5236|           0.01|
+|   Judy| 77| -6.9082|  112.106|           0.01|
+|  Alice| 77| -6.7769| 111.2573|           0.01|
+|  Debra| 77| -7.0507| 111.6703|           0.01|
+|   Anna| 77| -6.7306| 111.5732|           0.01|
+|   Mark| 77| -6.7523| 111.3447|           0.01|
+|   Gary| 77| -6.9869| 112.1989|           0.01|
++-------+---+--------+---------+---------------+
+
+Final DF in 1.207 seconds
+f
+Error: invalid choice: f. (choose from y, n)
+[FP-LY-NY] Do you want to know the exact location of these people [y/n] :: n
+[FP-LY-NY] Executed query in 92.121 seconds
+
+
+[FP-LY-NY] Do you want to continue or quit [c/q]: c
+
+
+[FP-LY-NY] Great! let's continue to do some more searches...
+
+
+[FP-LY-NY] Do you want to search with new proximity value or start a new search [p/n] :: n
+[FP-LY-NY] View Proximity Info Option is Set to ON
+[FP-LY-NY] Please enter your first name: Karah
+[FP-LY-NY] Please enter your age: 39
+[FP-LY-NY] Please enter your location details in latitude: 32.2534
+[FP-LY-NY] Please enter your location details in longitude: 119.38311
+[FP-LY-NY] Please enter new proximity in Kilo Meter for search :: 0.1
+[FP-LY-NY] Proximity Radius is now set at 0.1 km
+-------------------------------------------------
+[FP-LY-NY] Your current approximate location is - 润扬南路, 瓜洲镇, 邗江区 (Hanjiang), 扬州市 / Yangzhou, 江苏省, 225100, 中国
+[FP-LY-NY]  Locating people similar to you in a 0.1 km radius.
+-------------------------------------------------
+
+
+--------------------------------------------------------
+        Top 10 People In Close Proximity                
+--------------------------------------------------------
+[Stage 11:=======>                                                  (1 + 7) / 8]+--------+---+--------+---------+---------------+
+                                                                                |    name|age|latitude|longitude|proximity_in_km|
++--------+---+--------+---------+---------------+
+|  Joshua| 39|31.79154|119.29592|           0.01|
+|  Martin| 39|32.39523|119.42688|           0.01|
+|    Jose| 39|32.22484|118.91975|           0.01|
+| Carolyn| 39|31.82078|119.49411|           0.01|
+|    Joan| 39|32.07342|120.00895|           0.01|
+|  Jeremy| 39|32.06167|118.77778|           0.01|
+|   Randy| 39|32.10529| 119.4391|           0.01|
+|Nicholas| 39|32.41603|119.32981|           0.01|
+| Matthew| 39|32.64295|119.30415|           0.01|
+|   David| 39|32.21378|119.30362|           0.01|
++--------+---+--------+---------+---------------+
+
+Final DF in 1.391 seconds
+[FP-LY-NY] Do you want to know the exact location of these people [y/n] :: n
+[FP-LY-NY] Executed query in 24.429 seconds
+
+
+[FP-LY-NY] Do you want to continue or quit [c/q]: c
+
+
+[FP-LY-NY] Great! let's continue to do some more searches...
+
+
+[FP-LY-NY] Do you want to search with new proximity value or start a new search [p/n] :: n
+[FP-LY-NY] View Proximity Info Option is Set to ON
+[FP-LY-NY] Please enter your first name: Gwen
+[FP-LY-NY] Please enter your age: 77
+[FP-LY-NY] Please enter your location details in latitude: -8.1135
+[FP-LY-NY] Please enter your location details in longitude: 111.9474
+[FP-LY-NY] Please enter new proximity in Kilo Meter for search :: 0.2
+[FP-LY-NY] Proximity Radius is now set at 0.2 km
+-------------------------------------------------
+[FP-LY-NY] Your current approximate location is - Jalan Raya Blitar - Tulungagung, Kaliwungu, Bululawang, Jawa Timur, Indonesia
+[FP-LY-NY]  Locating people similar to you in a 0.2 km radius.
+-------------------------------------------------
+
+
+--------------------------------------------------------
+        Top 10 People In Close Proximity                
+--------------------------------------------------------
+[Stage 12:>                                                         (0 + 8) / 8]+-------+---+--------+---------+---------------+
+|   name|age|latitude|longitude|proximity_in_km|
++-------+---+--------+---------+---------------+
+|   Mary| 77| -8.0607| 111.6636|           0.01|
+| Andrew| 77| -8.1446| 112.1066|           0.01|
+|Rebecca| 77| -8.2066| 112.4663|           0.01|
+|    Joe| 77| -8.2667| 112.0324|           0.01|
+|  Shawn| 77|  -8.304| 111.5603|           0.01|
+|Jeffrey| 77| -8.2843| 112.0903|           0.01|
+| Carlos| 77| -8.1608| 111.6827|           0.01|
+|  Bobby| 77| -8.1623|  112.516|           0.01|
+| Howard| 77| -8.1196| 111.8076|           0.01|
+|Heather| 77| -8.1689| 111.9561|           0.01|
++-------+---+--------+---------+---------------+
+
+Final DF in 1.114 seconds
+d
+Error: invalid choice: d. (choose from y, n)
+[FP-LY-NY] Do you want to know the exact location of these people [y/n] :: n
+[FP-LY-NY] Executed query in 40.693 seconds
+
+
+[FP-LY-NY] Do you want to continue or quit [c/q]: c
+
+
+[FP-LY-NY] Great! let's continue to do some more searches...
+
+
+[FP-LY-NY] Do you want to search with new proximity value or start a new search [p/n] :: n
+[FP-LY-NY] View Proximity Info Option is Set to ON
+[FP-LY-NY] Please enter your first name: Jake
+[FP-LY-NY] Please enter your age: 55
+[FP-LY-NY] Please enter your location details in latitude: 39.21074
+[FP-LY-NY] Please enter your location details in longitude: 101.66898
+[FP-LY-NY] Please enter new proximity in Kilo Meter for search :: 0.01
+[FP-LY-NY] Proximity Radius is now set at 0.01 km
+-------------------------------------------------
+[FP-LY-NY] Your current approximate location is - S317, 阿拉善右旗, 阿拉善右旗 / Alxa Right, Алшаа / 阿拉善盟 / Alxa, 内蒙古自治区 / Inner Mongolia, 中国
+[FP-LY-NY]  Locating people similar to you in a 0.01 km radius.
+-------------------------------------------------
+
+
+--------------------------------------------------------
+        Top 10 People In Close Proximity                
+--------------------------------------------------------
++---------+---+--------+---------+---------------+
+|     name|age|latitude|longitude|proximity_in_km|
++---------+---+--------+---------+---------------+
+|   Steven| 55|38.89664|101.16874|           0.01|
+|Stephanie| 55|39.21074|101.66898|           0.01|
+|   Robert| 55|39.21074|101.66898|           0.01|
+| Kathleen| 55|39.21074|101.66898|           0.01|
+|     Judy| 55|38.86667|101.56667|           0.01|
++---------+---+--------+---------+---------------+
+
+Final DF in 1.342 seconds
+[FP-LY-NY] Do you want to know the exact location of these people [y/n] :: y
+
+
+--------------------------------------------------------
+  Top 10 People In Close Proximity with Exact Location  
+--------------------------------------------------------
++---------+---+--------------------+---------------+
+|     name|age|            location|proximity_in_km|
++---------+---+--------------------+---------------+
+|   Steven| 55|山丹县, 山丹县 (Shandan...|           0.01|
+|   Robert| 55|S317, 阿拉善右旗, 阿拉善右...|           0.01|
+| Kathleen| 55|S317, 阿拉善右旗, 阿拉善右...|           0.01|
+|     Judy| 55|X759, 阿拉善右旗, 阿拉善右...|           0.01|
+|Stephanie| 55|S317, 阿拉善右旗, 阿拉善右...|           0.01|
++---------+---+--------------------+---------------+
+
+Location DF in 3.766 seconds
+[FP-LY-NY] Executed query in 15.39 seconds
+
+
+[FP-LY-NY] Do you want to continue or quit [c/q]: c
+
+
+[FP-LY-NY] Great! let's continue to do some more searches...
+
+
+[FP-LY-NY] Do you want to search with new proximity value or start a new search [p/n] :: n
+[FP-LY-NY] View Proximity Info Option is Set to ON
+[FP-LY-NY] Please enter your first name: Wendy
+[FP-LY-NY] Please enter your age: 99
+[FP-LY-NY] Please enter your location details in latitude: 60.8
+[FP-LY-NY] Please enter your location details in longitude: 28
+[FP-LY-NY] Please enter new proximity in Kilo Meter for search :: 0.01
+[FP-LY-NY] Proximity Radius is now set at 0.01 km
+-------------------------------------------------
+Traceback (most recent call last):
+  File "/home/aparasur/dev/fplyny/fplyny.py", line 681, in <module>
+    cli()
+  File "/usr/lib/python2.7/dist-packages/click/core.py", line 716, in __call__
+    return self.main(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/click/core.py", line 696, in main
+    rv = self.invoke(ctx)
+  File "/usr/lib/python2.7/dist-packages/click/core.py", line 889, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/usr/lib/python2.7/dist-packages/click/core.py", line 534, in invoke
+    return callback(*args, **kwargs)
+  File "/home/aparasur/dev/fplyny/fplyny.py", line 645, in cli
+    user_location = util.getGeoLocation(userlat, userlon).encode('utf-8')
+  File "/home/aparasur/dev/fplyny/utility.py", line 39, in getGeoLocation
+    location = geolocator.reverse(geoargs)
+  File "/usr/local/lib/python2.7/dist-packages/geopy/geocoders/osm.py", line 248, in reverse
+    self._call_geocoder(url, timeout=timeout), exactly_one
+  File "/usr/local/lib/python2.7/dist-packages/geopy/geocoders/base.py", line 165, in _call_geocoder
+    raise GeocoderUnavailable('Service not available')
+geopy.exc.GeocoderUnavailable: Service not available
+
+Process finished with exit code 1

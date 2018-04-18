@@ -1,0 +1,305 @@
+/usr/bin/python2.7 /home/aparasur/dev/fplyny/fplyny.py
+-----------------------------------------------------------
+Welcome to 'Find->People->Like->You->Near->You Application'
+-----------------------------------------------------------
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel).
+16/12/07 10:32:49 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[FP-LY-NY] Loaded data in memory in 10.093 seconds
+[FP-LY-NY] Please enter your first name: sdfdsfdsf
+[FP-LY-NY] Please enter your age: 55
+[FP-LY-NY] Please enter your location details in latitude: 31.5580
+[FP-LY-NY] Please enter your location details in longitude: 119.4602
+-------------------------------------------------
+[FP-LY-NY] Your current approximate location is - 别桥, 别桥镇, 溧阳市 (Liyang), 常州市 / Changzhou, 江苏省, 213300, 中国
+-------------------------------------------------
+
+
+--------------------------------------------------------
+        Top 10 People In Close Proximity                
+--------------------------------------------------------
+LatLonSortedDF in 0.05 seconds
++---------+---+--------+---------+
+|     name|age|latitude|longitude|
++---------+---+--------+---------+
+|Elizabeth| 55| 31.5791|120.08762|
+| Margaret| 55| 31.5791|120.08762|
+|     John| 55|31.29362|119.16101|
+|   Howard| 55|31.86192|119.81023|
+|     Sara| 55|31.75614|118.91552|
+|    David| 55|32.00354|119.50006|
+|  Kenneth| 55|31.89852|119.73471|
+|   Justin| 55|31.60732|118.98023|
+|    Robin| 55|31.65811|119.02772|
+|   Pamela| 55|31.77358|119.95401|
++---------+---+--------+---------+
+
+ProximitySortedDF in 11.954 seconds
+[FP-LY-NY] Do you want to know the exact location of these people [y/n] :: y
++---------+---+--------------------+
+|     name|age|            location|
++---------+---+--------------------+
+|Elizabeth| 55|陆中路, 阳山镇, 惠山区 (Hu...|
+| Margaret| 55|陆中路, 阳山镇, 惠山区 (Hu...|
+|     John| 55|S246, 溧水区 (Lishui...|
+|   Howard| 55|S239, 西夏墅镇, 新北区 (...|
+|     Sara| 55|S123, 溧水区 (Lishui...|
+|    David| 55|X103, 司徒镇, 丹阳市 (D...|
+|  Kenneth| 55|X002, 吕城镇, 丹阳市 (D...|
+|   Justin| 55|S123, 洪蓝镇, 溧水区 (L...|
+|    Robin| 55|珍珠路, 溧水区, 溧水区 (Li...|
+|   Pamela| 55|North HePing Road...|
++---------+---+--------------------+
+
+Result view in 7.739 seconds
+[FP-LY-NY] Executed query in 1045.013 seconds
+
+
+[FP-LY-NY] Do you want to continue or quit [c/q]: c
+
+
+[FP-LY-NY] Great! let's continue to do some more searches...
+
+
+Uncaching People Table
+[FP-LY-NY] Please enter your first name: Karlt
+[FP-LY-NY] Please enter your age: 109
+[FP-LY-NY] Please enter your location details in latitude: 39.31583
+[FP-LY-NY] Please enter your location details in longitude: 112.4225
+-------------------------------------------------
+[FP-LY-NY] Your current approximate location is - 朔城区, 朔州市, 朔城区 (Shuocheng), 朔州市 / Shuozhou, 山西省, 中国
+-------------------------------------------------
+
+
+--------------------------------------------------------
+        Top 10 People In Close Proximity                
+--------------------------------------------------------
+LatLonSortedDF in 0.03 seconds
++----------+---+--------+---------+
+|      name|age|latitude|longitude|
++----------+---+--------+---------+
+|     Nancy|109|39.67552| 112.6029|
+|Jacqueline|109|39.52038|112.81684|
+|   Barbara|109|39.44784|112.45239|
+|     Robin|109|39.36028|112.37667|
+|   Mildred|109|39.52038|112.81684|
+|    Angela|109|39.57526|112.90584|
+|      Alan|109|39.10499|113.01797|
+|    Carlos|109|39.60725|112.35134|
+|     Sarah|109|39.28796| 112.3271|
+|      Ruth|109|39.63547|112.10074|
++----------+---+--------+---------+
+
+ProximitySortedDF in 13.657 seconds
+[FP-LY-NY] Do you want to know the exact location of these people [y/n] :: n
+[FP-LY-NY] Executed query in 21.325 seconds
+
+
+[FP-LY-NY] Do you want to continue or quit [c/q]: c
+
+
+[FP-LY-NY] Great! let's continue to do some more searches...
+
+
+Uncaching People Table
+[FP-LY-NY] Please enter your first name: Junaid
+[FP-LY-NY] Please enter your age: 47
+[FP-LY-NY] Please enter your location details in latitude: -13.8575
+[FP-LY-NY] Please enter your location details in longitude: -40.0836
+-------------------------------------------------
+[FP-LY-NY] Your current approximate location is - Praça Santo Antonio, Rua Dez de Julho, São Luiz, Jequié, Microrregião de Jequié, Mesorregião do Centro-Sul Baiano, BA, Região Nordeste, 45206191, Brasil
+-------------------------------------------------
+
+
+--------------------------------------------------------
+        Top 10 People In Close Proximity                
+--------------------------------------------------------
+LatLonSortedDF in 0.021 seconds
++-------+---+---------+---------+
+|   name|age| latitude|longitude|
++-------+---+---------+---------+
+|  Diane| 47|-13.44111|-40.43083|
+| Ashley| 47| -13.8575|-40.08361|
+|Phillip| 47| -13.8575|-40.08361|
+|  Alice| 47|-14.06694|-39.64056|
+| Samuel| 47|-13.53167|-40.15028|
+|  Brian| 47|-14.13341|-39.73708|
+|  Keith| 47|-14.13341|-39.73708|
+| Cheryl| 47|-13.53167|-40.15028|
+|  Terry| 47|-13.44111|-40.43083|
+| Evelyn| 47|-14.28361|-39.84278|
++-------+---+---------+---------+
+
+ProximitySortedDF in 10.791 seconds
+[FP-LY-NY] Do you want to know the exact location of these people [y/n] :: n
+[FP-LY-NY] Executed query in 18.65 seconds
+
+
+[FP-LY-NY] Do you want to continue or quit [c/q]: c
+
+
+[FP-LY-NY] Great! let's continue to do some more searches...
+
+
+Uncaching People Table
+[FP-LY-NY] Please enter your first name: Yasir
+[FP-LY-NY] Please enter your age: 39
+[FP-LY-NY] Please enter your location details in latitude: 41.64228
+[FP-LY-NY] Please enter your location details in longitude: 41.63392
+-------------------------------------------------
+[FP-LY-NY] Your current approximate location is - ამერიკული კარი, ალექსანდრე პუშკინის ქუჩა, ბათუმი, აჭარის ავტონომიური რესპუბლიკა, 6010, საქართველო
+-------------------------------------------------
+
+
+--------------------------------------------------------
+        Top 10 People In Close Proximity                
+--------------------------------------------------------
+LatLonSortedDF in 0.032 seconds
++-------+---+--------+---------+
+|   name|age|latitude|longitude|
++-------+---+--------+---------+
+|  Debra| 39|41.64353| 42.30397|
+|   Mary| 39|42.09028| 42.03239|
+| Denise| 39|41.65395| 42.15163|
+|  Carol| 39|41.92442| 42.00682|
+|   Jose| 39|   41.82| 41.77528|
+|    Joe| 39|41.64353| 42.30397|
+|   Gary| 39|41.64228| 41.63392|
+|Jessica| 39|41.62933| 42.39171|
+|Douglas| 39|   41.82| 41.77528|
+| Andrea| 39|41.65395| 42.15163|
++-------+---+--------+---------+
+
+ProximitySortedDF in 11.349 seconds
+[FP-LY-NY] Do you want to know the exact location of these people [y/n] :: n
+[FP-LY-NY] Executed query in 28.804 seconds
+
+
+[FP-LY-NY] Do you want to continue or quit [c/q]: c
+
+
+[FP-LY-NY] Great! let's continue to do some more searches...
+
+
+Uncaching People Table
+[FP-LY-NY] Please enter your first name: Hamid
+[FP-LY-NY] Please enter your age: 67
+[FP-LY-NY] Please enter your location details in latitude: -7.3343
+[FP-LY-NY] Please enter your location details in longitude: 108.2221
+-------------------------------------------------
+[FP-LY-NY] Your current approximate location is - GOR Susi Susanti, Dadaha, Tasikmalaya, Jawa Barat, Indonesia
+-------------------------------------------------
+
+
+--------------------------------------------------------
+        Top 10 People In Close Proximity                
+--------------------------------------------------------
+LatLonSortedDF in 0.033 seconds
++---------+---+--------+---------+
+|     name|age|latitude|longitude|
++---------+---+--------+---------+
+|     Sara| 67| -7.5266|  108.177|
+|Stephanie| 67| -7.4045| 108.0885|
+|    Aaron| 67| -7.0912| 108.3732|
+|   Sandra| 67| -7.1685| 107.8935|
+|    Irene| 67|  -7.218| 108.1327|
+|     Eric| 67| -7.4204| 108.2835|
+|    Alice| 67| -7.3525| 107.8127|
+| Kimberly| 67| -7.1448| 108.1472|
+| Lawrence| 67| -7.2198|  108.514|
+|   Albert| 67| -7.1198|  108.678|
++---------+---+--------+---------+
+
+ProximitySortedDF in 11.041 seconds
+[FP-LY-NY] Do you want to know the exact location of these people [y/n] :: n
+[FP-LY-NY] Executed query in 16.511 seconds
+
+
+[FP-LY-NY] Do you want to continue or quit [c/q]: c
+
+
+[FP-LY-NY] Great! let's continue to do some more searches...
+
+
+Uncaching People Table
+[FP-LY-NY] Please enter your first name: Gaur
+[FP-LY-NY] Please enter your age: 76
+[FP-LY-NY] Please enter your location details in latitude: 4.6118
+[FP-LY-NY] Please enter your location details in longitude: 101.1135
+-------------------------------------------------
+[FP-LY-NY] Your current approximate location is - Tingkat Ipoh 1, Hock Lee Park, Ipoh Garden, Ipoh, Perak / ڨيرق, 31400, Malaysia
+-------------------------------------------------
+
+
+--------------------------------------------------------
+        Top 10 People In Close Proximity                
+--------------------------------------------------------
+LatLonSortedDF in 0.021 seconds
++--------+---+--------+---------+
+|    name|age|latitude|longitude|
++--------+---+--------+---------+
+|Lawrence| 76|  4.6118| 101.1135|
+|   Louis| 76|  4.6118| 101.1135|
+|    Rose| 76|  4.6118| 101.1135|
+| Phillip| 76|  4.6118| 101.1135|
+|  Gloria| 76|  4.6118| 101.1135|
+|  Martin| 76|  4.6118| 101.1135|
+|   Roger| 76|  4.6118| 101.1135|
+|   Carol| 76|  4.5982| 101.0753|
+|   Irene| 76|  4.7024| 100.7738|
+|   Joyce| 76|  4.6118| 101.1135|
++--------+---+--------+---------+
+
+ProximitySortedDF in 11.474 seconds
+[FP-LY-NY] Do you want to know the exact location of these people [y/n] :: n
+[FP-LY-NY] Executed query in 23.182 seconds
+
+
+[FP-LY-NY] Do you want to continue or quit [c/q]: c
+
+
+[FP-LY-NY] Great! let's continue to do some more searches...
+
+
+Uncaching People Table
+[FP-LY-NY] Please enter your first name: Jake
+[FP-LY-NY] Please enter your age: 88
+[FP-LY-NY] Please enter your location details in latitude: 38.05
+[FP-LY-NY] Please enter your location details in longitude: 140.7336
+-------------------------------------------------
+[FP-LY-NY] Your current approximate location is - 大河原停車場線, 大河原町, 柴田郡, 宮城県, 日本
+-------------------------------------------------
+
+
+--------------------------------------------------------
+        Top 10 People In Close Proximity                
+--------------------------------------------------------
+LatLonSortedDF in 0.02 seconds
++---------+---+--------+---------+
+|     name|age|latitude|longitude|
++---------+---+--------+---------+
+|Elizabeth| 88|38.24056|140.36333|
+|   Janice| 88|38.26889|140.87194|
+|    David| 88|37.81667|   140.55|
+|    Susan| 88|38.24056|140.36333|
+|   Howard| 88|   38.05|140.73361|
+|   Evelyn| 88|38.31667|141.03333|
+|   Andrea| 88|   38.55|   141.05|
+|    Wayne| 88|38.10472|140.85944|
+|  Anthony| 88|   37.85|    140.6|
+|     Adam| 88|38.43889|140.40056|
++---------+---+--------+---------+
+
+ProximitySortedDF in 11.902 seconds
+[FP-LY-NY] Do you want to know the exact location of these people [y/n] :: n
+[FP-LY-NY] Executed query in 548.189 seconds
+
+
+[FP-LY-NY] Do you want to continue or quit [c/q]: q
+Are you sure you want to quit this App? [y/N]: y
+
+
+Thank You for using 'Find->People->Like->You->Near->You' App.
+ GoodBye!
+
+Process finished with exit code 0

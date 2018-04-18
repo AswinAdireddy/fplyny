@@ -1,0 +1,65 @@
+/usr/bin/python2.7 /home/aparasur/dev/fplyny/fplyny.py --help
+Usage: fplyny.py [OPTIONS]
+
+  Find->People->Like->You->Near->You ! [FP-LY-NY]
+
+  -----------------------------------------------
+
+  A simple app where in a user can search people similar to his age in the
+  nearest vicinity given his age, latitude and longitude inputs.
+
+  The app also supports a proximity search flow where given the
+  aforementioned inputs, he could iterate searches based on proximity
+  distance in KiloMeter(KM).
+
+  This script is a pySpark application and uses Apache Spark 1.6.2 / 2.0.2,
+  a distributed computing engine and a bunch of python libraries like click,
+  databricks csv, numpy, pandas, pygeocoder among the few.
+
+  run this code via:
+
+  ./spark-submit fplyny.py
+
+  Application Flow Overview:
+
+  [ StartNewSearch->GetUserInput->PerformSearch->DisplayResults
+  ->ShowMoreDetails->DisplayResultsWithExactLocation
+  ->PromptQuit->Quit(or)StartNewSearch ]
+
+  With 'proximity' & 'view_proximity oprions set:
+
+  [ StartNewSearch->GetUserInput->PromptProximity->PerformSearch->DisplayRes
+  ults ->Show More Details->Display Results with Exact Location
+  ->PromptQuit->Quit(or)Continue ->Proximity Search->Display Results with
+  Proximity(or)StartNewSearch ]
+
+  :return: displays top 10 people in close proximity/location
+
+Options:
+  --version         Displays application version info
+  --proximity       Distance in KM defining the search radius 
+                    (optional)
+                    depedency: view_proximity option
+  --view_proximity  Display Proximity in KM in the results 
+                     (optional)
+                    depedency: proximity option 
+                    Result Views: 
+                    - [name, age,
+                    lat, lon]
+                    - [name, age, lat, lon, proximity]
+                    - [name, age,
+                    location]
+                     - [name, age, location, proximity]
+  --help            Show this message and exit.
+
+Process finished with exit code 0
+
+
+/usr/bin/python2.7 /home/aparasur/dev/fplyny/fplyny.py --version
+-------------------------------------------
+Find People You Like & Near You Application
+             [FP-LY-NY]                    
+            Version  1.0                   
+-------------------------------------------
+
+Process finished with exit code 0
